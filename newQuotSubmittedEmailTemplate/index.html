@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- <link rel="stylesheet" href="../firstEmailTemplateOne/emailTemplate.css" /> -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
@@ -37,7 +36,9 @@
       .padng {
         padding: 14px;
       }
-
+      .vendor-name {
+        font-weight: 700;
+      }
       .section {
         background-color: #ffffff;
         box-shadow: 0px 4px 6px -2px rgba(16, 24, 40, 0.03),
@@ -86,9 +87,9 @@
       class="template-wrapper"
     >
       <!-- header content -->
-      <tr class="table-row section">
+      <tr class="section">
         <td class="padng" width="40%">
-          <img class="user-img" src="./images/png/awarded.png" alt="" />
+          <img class="user-img" src="./images/png/new.png" alt="" />
         </td>
         <td width="100%" class="text-content-header padng">
           <table width="100%" cellPading="0" cellspacing="0">
@@ -106,9 +107,10 @@
                   </tr>
                   <tr>
                     <td>
-                      <h4>Awarded</h4>
+                      <h4>New</h4>
                       <h4>
-                        Purchase Requisition [PR Number] to Vendor on Conqt-vms
+                        Quotation Submitted by Vendor for PR (#PR Number) on
+                        [Software Name]
                       </h4>
                     </td>
                   </tr>
@@ -122,39 +124,50 @@
       <!-- middle cotnent -->
       <tr class="section">
         <td class="padng" colspan="2">
-          <p class="middle-para">Dear <span>Vendor Name</span></p>
-          <p>We hope this email finds you well.</p>
           <p class="middle-para">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus voluptate, laudantium amet dignissimos nihil fuga.
-            Voluptate
+            Dear <span class="vendor-name">[Customer Name]</span>
           </p>
+          <p>We hope this message finds you well.</p>
           <p class="middle-para">
-            Purchase Requisition Details.<br />PR Number :
-            <span>[Enter PR Number]</span> <br />
-            Enter Description :
-            <span>[Enter brief description on PR]</span>
+            We are writing to inform you that a new quotation has been submitted
+            by a vendor for the Purchase Requisition (PR) generated within our
+            [software name].
+          </p>
+          <p class="middle-para">Quotation Details :</p>
+          <p class="middle-para">
+            Quotation Number : <span>[Insert Quotation Number]</span>
             <br />
-            Deadline for Submission <span>[Enter deadline for submission]</span>
+            Vendor Name :
+            <span>[Insert Vendor Name]</span>
+            <br />
+            Quoted Price : <span>[Insert Quoted Price]</span>
+            <br />
+            Quotation Submission Date : <span>[Insert Submission Date]</span>
+          </p>
+          <p class="middle-para">Purchase Requisition Details :</p>
+          <p class="middle-para">
+            PR Number : <span>[Insert PR Number]</span>
+            <br />
+            Description :
+            <span>[Description]</span>
+            <br />
+            Quoted Price : <span>[Insert Quoted Price]</span>
+            <br />
+            Deadline for Submission :
+            <span>[Insert Deadline for Submission]</span>
           </p>
           <p class="middle-para">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus voluptate, laudantium amet dignissimos nihil fuga.
-            Voluptate
+            kindly request your attention to review the quotation and assess its
+            suitability for your requirements. You can access the quotation here
+            [insert quotation link]
           </p>
           <p class="middle-para">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse nisi
-            sapiente deserunt obcaecati possimus quibusdam totam magnam amet
-            perferendis reiciendis harum, quos repellat? Laudantium id tenetur
-            laborum nam, doloremque adipisci.
+            Your prompt review and feedback will expedite the procurement
+            process efficiently.
           </p>
-          <p class="middle-para">
-            Thank you for your interest in parternering with us. we look
-            forweard to welcoming you as a registering vendor soon.
-          </p>
+          <p class="middle-para">Thank you for your cooperation.</p>
           <p>Best Regards,</p>
-          <p>(Company Organisation Name)</p>
-          <p>(Contact Information)</p>
+          <p>ConQT Vendor Managament Software</p>
         </td>
       </tr>
       <!-- footer cotnent -->
@@ -166,9 +179,9 @@
             src="./images/png/conqtLogo.png"
             alt=""
           />
-          <p>CONQT Technologies PVT LTD.</p>
-          <p>51 goldhill plaza #07-07 singapore 308900</p>
-          <p>info@conqt.com +91-875487854</p>
+          <p>ConQT Technologies Pte, Ltd</p>
+          <p>51 Goldhill Plaza #07-07 Singapore 308900</p>
+          <p>Info@conqt.com +91 7218645642</p>
         </td>
       </tr>
     </table>
