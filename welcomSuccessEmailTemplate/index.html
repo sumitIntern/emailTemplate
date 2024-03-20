@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- <link rel="stylesheet" href="../firstEmailTemplateOne/emailTemplate.css" /> -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #d1d1d1;
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      h4 {
+        margin: 0 !important;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        color: #101828;
+      }
+
+      p {
+        margin: 4px;
+        font-weight: 400;
+        font-size: 14px;
+        color: #667085;
+        line-height: 23px;
+      }
+
+      .middle-para {
+        margin-bottom: 10px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.2px;
+      }
+
+      .regards-text.middle-para {
+        margin-bottom: 0;
+      }
+     
+      .middle-para.v-name {
+        margin: 1.5em 0;
+      }
+
+      /* new style added */
+    
+
+      .text-padding {
+        padding: 0px 14px;
+        
+      }
+      .vendor-name {
+        font-weight: 700;
+      }
+      .section {
+        background-color: #ffffff;
+        /* box-shadow: 0px 4px 6px -2px rgba(16, 24, 40, 0.03),
+          0px 12px 16px -4px rgba(16, 24, 40, 0.08); */
+      }
+
+      .template-wrapper {
+        /* padding: 14px; */
+        margin: 5% 0px;
+        margin-inline: auto;
+        /* background-color: #fff;
+        border-spacing: 0 0.5em; */
+        border-collapse: separate;
+      }
+
+      .inner-table {
+        border-collapse: separate;
+      }
+
+      .text-content-header {
+        vertical-align: top;
+      }
+
+      /* image section */
+
+      .user-img {
+        /* width: 90%; */
+        padding: 20px;
+        margin: 0;
+
+        /* border-radius: 6px; */
+      }
+      .conqt-logo {
+        width: 15%;
+        align-items: center;
+        padding-top: 0.7em;
+        padding-bottom: 0.2em;
+      }
+
+      .footer-conqt-logo {
+        width: 12%;
+      }
+
+      .vendor-info {
+        padding: 14px 0px;
+        width: auto;
+        display: inline-block;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+       
+      }
+      .vendor-info-wrapper {
+        display: flex;
+        
+      }
+      .info-heading.middle-para {
+        padding: 0;
+        margin: 0;
+        color: #101828;
+      }
+
+      .welcome-text {
+        color: #121a26;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25.2px;
+        margin: 0;
+        padding: 0;
+      }
+      .middle-para.show-info , .show-email {
+        color: #304ffe;
+      }
+      hr.line {
+        border-top: 1px solid #304FFE;
+        margin: 4% 0;
+      }
+      .checkbox {
+        width: 20px;
+        height: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <table
+      cellPading="0"
+      cellspacing="0"
+      width="40%"
+      height="100%"
+      class="template-wrapper"
+    >
+      <!-- header content -->
+      <tr class="section">
+        <!-- <td class="padng" width="40%">
+          <img class="user-img" src="./images/png/vendor.png" alt="" />
+        </td> -->
+        <td
+          width="100%"
+          style="padding: 0; margin: 0"
+          class="text-content-header"
+        >
+          <table width="100%" cellPading="0" cellspacing="0">
+            <tr>
+              <td style="padding: 0; margin: 0">
+                <table
+                  cellpadding="0"
+                  cellspacing="0"
+                  class="inner-table"
+                  width="100%"
+                >
+                  <tr>
+                    <td align="center">
+                      <img
+                        class="conqt-logo"
+                        src="./images/png/conqtLogo.png"
+                        alt=""
+                      />
+                    </td>
+                  </tr>
+                  <tr >
+                    <td style="background-color: #f7f8fd;" align="center" >
+                      <img
+                        class="user-img"
+                        src="./images/png/welcomeImage.png"
+                        alt=""
+                      />
+                      <!-- <h4>Counter-Offer</h4>
+                      <h4>
+                        Received on Your Quotation for [PR Number] from
+                        [Customer Organisation Name]
+                      </h4> -->
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <!-- middle cotnent -->
+      <tr class="section">
+        <td class="text-padding" colspan="2">
+          <h4 class="welcome-text" style="text-align: center">
+            Welcome to ConQT Vendor Management Software
+          </h4>
+          <p class="middle-para v-name">
+            Dear <span >[Vendor Name]</span>
+          </p>
+         
+          <p class="middle-para">
+            We are delighted to inform you that your company, [Vendor's Company Name], has been successfully registered in our Vendor Management System. This platform will serve as a centralized hub for managing our partnership, facilitating communication, and streamlining procurement processes.
+          </p>
+
+          <p class="middle-para">
+           
+          To access the vendor portal and begin utilizing the features available to you, please follow the instructions below:
+          </p>
+
+          <div class="vendor-info-wrapper middle-para">
+            <div class="vendor-info">
+             
+             
+           
+             <div style="display: flex; align-items: center;"> <img class="checkbox" src="./images/png/Checkbox.png" /><p style="margin-bottom: 0;" class="middle-para">
+              Vendor Portal Url : </p>  <span style="margin-bottom: 0;" class="middle-para show-info">[insert url here]</span>
+                </div>
+             <div style="display: flex; align-items: center;"><img class="checkbox" src="./images/png/Checkbox.png" /> <p style="margin-bottom: 0;" class="middle-para">
+              Username : </p>  <span style="margin-bottom: 0;" class="middle-para show-info">[show username here]</span>
+                </div>
+             <div style="display: flex; align-items: center;"><img class="checkbox" src="./images/png/Checkbox.png" /> <p style="margin-bottom: 0;" class="middle-para">
+                Password  : </p>  <span style="margin-bottom: 0;" class="middle-para show-info">[insert  Password  here]</span>
+                </div>
+            
+
+            <!-- <div style="display: flex; align-items: center;gap: 12px;"> 
+              <p class="middle-para">
+                Username :
+                <span class="middle-para show-info">[show username here]</span>
+                <img src="./images/png/copy.png" alt="" />
+              </p>
+              </div>
+              <div style="display: flex; align-items: center;"> 
+              <p class="middle-para">
+                Password :
+                <span class="middle-para show-info">[show password here]</span>
+                <img src="./images/png/copy.png" alt="" />
+              </p></div> -->
+            </div>
+          </div>
+          <p class="middle-para">
+            Within the vendor portal, you will have access to receive notification for New RFQs and submit your quotations therein.
+
+          </p>
+          <p class="middle-para">
+          
+We encourage you to explore the platform thoroughly and familiarize yourself with its features. Should you encounter any difficulties during the login process or have any questions about using the vendor portal, please don't hesitate to contact our support team at [Support Email Address] for assistance.
+
+          </p>
+          <p class="middle-para">We value our partnership with [Vendor's Company Name] and look forward to leveraging this platform to enhance collaboration and efficiency in our business dealings.
+          </p>
+          <p class="middle-para">
+            Thank you for your cooperation, and welcome aboard!
+          </p>
+
+          <p style="margin-top: 5%;" class="regards-text middle-para">Best Regards,</p>
+          <p class="regards-text middle-para">[Company/Organization Name]</p>
+          <p class="regards-text middle-para">[Contact Information]</p>
+
+          <hr class="line" ></hr>
+        </td>
+      </tr>
+
+      <!-- footer cotnent -->
+      <tr class="section">
+        <td colspan="2" align="center">
+          <img
+            class="footer-conqt-logo"
+            src="./images/png/conqtLogo.png"
+            alt=""
+          />
+          <p class="regards-text middle-para">ConQT Technologies Pte, Ltd</p>
+          <p class="regards-text middle-para">51 Goldhill Plaza #07-07 Singapore 308900</p>
+          <p class="middle-para "> <span class="show-email">Info@conqt.com </span>+91 7218645642</p>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
